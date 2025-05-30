@@ -10,13 +10,13 @@ This repository contains code and supplemental material for the paper *Regularit
 - [`src/`](src/)  
   Source code used to define and visualize the core functions in the construction:
   
-  - `H_construct.py` – Provides functions to evaluate the $H^\ast$, $\tilde{H}$ and $h$.
-  - `T_construct.py` – Constructs the transition function $T^\ast$.
-  - `coord_transform.py` – Contains a helper function for converting spherical coordinates to Cartesian coordinates.
-  - `extend.py` – Provides a function which extends $C^1$ functions defined on $[-1,1]^2$ to be constant outside $[-2,2]^2$.
-  - `f_construct.py` – Assembles the final function $f^\ast$ and wraps it into $f$ in spherical coordinates.
-  - `integral.py` – Supporting function for numerical integration.
-  - `plot.py` – Contains all utilities for generating the figures used in the paper and supplemental material.
+  - [`H_construct.py`](src/H_construct.py) – Provides functions to evaluate the $H^\ast$, $\tilde{H}$ and $h$.
+  - [`T_construct.py`](src/T_construct.py) – Constructs the transition function $T^\ast$.
+  - [`coord_transform.py`](src/coord_transform.py) – Contains a helper function for converting spherical coordinates to Cartesian coordinates.
+  - [`extend.py`](src/extend.py) – Provides a function which extends $C^1$ functions defined on $[-1,1]^2$ to be constant outside $[-2,2]^2$.
+  - [`f_construct.py`](src/f_construct.py) – Assembles the final function $f^\ast$ and wraps it into $f$ in spherical coordinates.
+  - [`integral.py`](src/integral.py) – Supporting function for numerical integration.
+  - [`plot.py`](src/plot.py) – Contains all utilities for generating the figures used in the paper and supplemental material.
 
 ## 📜 Mathematical Summary
 
